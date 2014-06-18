@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwiftScope</string>
+    <string name="title_splash">SwiftScope</string>
+    <string name="connectUSB">Please connect the USB cable from the SwiftScope</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- vendor and product ID for Stellaris USB -->
+    <usb-device vendor-id="7358" product-id="0003" />
+</resources>

@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.mahir.myfirstapp.app.splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/blurred"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp">
+
+        <ImageView
+            android:id="@+id/splash_logov"
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_256"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splash_logov"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:text="@string/title_splash"/>
+
+        <ImageView
+            android:id="@+id/splash_usbv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/splash_usbtext"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/usb_logo"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/splash_usbtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="50dp"
+            android:paddingTop="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="@string/connectUSB"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
